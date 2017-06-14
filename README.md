@@ -1,5 +1,5 @@
 # Skyline-Query-Hadoop
-In this implementation of the algorithm we want to detect the skyline points in an apartment dataset with 2 or 3 dimensions(Price,Age,DistanceFromCityCenter), random or angular partitioning (the number of partitions are set by the user)
+In this implementation of the algorithm we detect the skyline points in an apartment dataset for the purpose of rental with 2 or 3 dimensions(Price,Age,DistanceFromCityCenter), random or angular partitioning (the number of partitions are set by the user)
 
 How to run the jar : hadoop jar {name of the jar} {main} {input} {output} #paritions random|angle 2d|3d
 
