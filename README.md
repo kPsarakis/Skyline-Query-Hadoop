@@ -4,6 +4,8 @@ In this implementation of the algorithm we want to detect the skyline points in 
 How to run the jar : hadoop jar {name of the jar} {main} {input} {output} #paritions random|angle 2d|3d
 
 main = Skyline
+
 input = input_file.csv (must exist in the hdfs input folder)
+
 output = name of the output file (ex. skyline.csv) the output will be saved in the same folder as the jar 
 
